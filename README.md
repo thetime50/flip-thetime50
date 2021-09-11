@@ -1,5 +1,7 @@
 # FLIP.js
 
+[![View UI](https://img.shields.io/npm/v/flip-thetime50.svg?style=flat)](https://www.npmjs.org/package/flip-thetime50)
+
 A helper library for [FLIP animations](https://aerotwist.com/blog/flip-your-animations).
 
 [![FLIP Demos](https://cloud.githubusercontent.com/assets/617438/12309072/8be03324-ba40-11e5-8f6c-0e5c04f87336.png)](http://googlechrome.github.io/flipjs/)
