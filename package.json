@@ -1,6 +1,6 @@
 {
   "name": "flip-thetime50",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "A FLIP helper",
   "main": "lib/flip-thetime50.cjs.js",
   "module": "lib/flip-thetime50.es.js",
