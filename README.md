@@ -63,8 +63,8 @@ let flip = new FLIP({
 
 ## Documentation & Demos
 
-  * [Demos](https://googlechrome.github.io/flipjs/) - There are more to make :)
-  * [API docs](https://googlechrome.github.io/flipjs/docs/FLIP.html).
+  * [Demos](https://googlearchive.github.io/flipjs/) - There are more to make :)
+  * [API docs](https://googlearchive.github.io/flipjs/docs/FLIP.html).
 
 ## New to FLIP?
 
