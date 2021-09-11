@@ -1,6 +1,6 @@
 {
   "name": "flip-thetime50",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A FLIP helper",
   "main": "dist/flip.js",
   "scripts": {
