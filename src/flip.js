@@ -21,7 +21,9 @@ import GSAP from './gsap';
 Core.extend('rAF', rAF);
 Core.extend('GSAP', GSAP);
 
-if (typeof window.Core === 'undefined')
-  window.FLIP = Core;
-else
-  console.warn('FLIP already exists');
+// if (typeof window.Core === 'undefined')
+//   window.FLIP = Core;
+// else
+//   console.warn('FLIP already exists');
+
+export default Core

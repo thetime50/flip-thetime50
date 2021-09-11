@@ -2,11 +2,18 @@
   "name": "flip-thetime50",
   "version": "0.1.10",
   "description": "A FLIP helper",
-  "main": "dist/flip.js",
+  "main": "lib/flip-thetime50.cjs.js",
+  "module": "lib/flip-thetime50.es.js",
+  "jsnext:main": "lib/flip-thetime50.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf lib",
+    "build": "npm run clean && rollup --config rollup.config.js",
     "deploy": "npm version patch && npm publish"
   },
+  "files": [
+    "src"
+  ],
   "keywords": [],
   "author": "Paul Lewis [Google]",
   "license": "Apache-2.0",
@@ -15,16 +22,9 @@
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
     "del": "^2.1.0",
-    "gulp": "^3.9.0",
-    "gulp-bump": "^1.0.0",
-    "gulp-license": "^1.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "gulp-shell": "^0.5.1",
-    "gulp-streamify": "^1.0.2",
-    "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.7",
     "jsdoc": "^3.4.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.3",
     "run-sequence": "^1.1.5",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.1"
