@@ -1,10 +1,11 @@
 {
-  "name": "FLIP",
+  "name": "flip-thetime50",
   "version": "0.1.9",
   "description": "A FLIP helper",
-  "main": "index.js",
+  "main": "dist/flip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm version patch && npm publish"
   },
   "keywords": [],
   "author": "Paul Lewis [Google]",
